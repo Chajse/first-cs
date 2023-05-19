@@ -31,3 +31,29 @@ Console.WriteLine($"my megaidok's name {myFriend} has {myFriend.Length} letters"
 
 string Thing = "Putok";
 Console.WriteLine($"Shawn has {Thing}");
+
+//numero otso
+
+string greeting = "    MABANTOT SI SHAWN RADA    ";
+Console.WriteLine($"[{greeting}]");
+
+string trimmedGreeting = greeting.TrimStart();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+trimmedGreeting = greeting.TrimEnd();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+trimmedGreeting = greeting.Trim();
+Console.WriteLine($"[{trimmedGreeting}]");
+
+//numero nuwebe
+
+string sayGreet= "Denzel low sa Iron HAHAHAHA";
+Console.WriteLine(sayGreet);
+sayGreet = sayGreet.Replace("Denzel", "Aid");
+Console.WriteLine(sayGreet);
+
+//diez
+
+Console.WriteLine(sayGreet.ToUpper());
+Console.WriteLine(sayGreet.ToLower());
