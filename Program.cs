@@ -57,3 +57,16 @@ Console.WriteLine(sayGreet);
 
 Console.WriteLine(sayGreet.ToUpper());
 Console.WriteLine(sayGreet.ToLower());
+
+//onse boolean
+
+string myStatement = "ang singit ni Aid ay mabaho, kapag gabi ay mabango";
+Console.WriteLine(myStatement.Contains("mabaho"));
+Console.WriteLine(myStatement.Contains("Mabango"));
+
+//dose 
+Console.WriteLine(myStatement.StartsWith("ang"));
+Console.WriteLine(myStatement.StartsWith("kapag"));
+
+Console.WriteLine(myStatement.EndsWith("mabango"));
+Console.WriteLine(myStatement.EndsWith("singit"));
